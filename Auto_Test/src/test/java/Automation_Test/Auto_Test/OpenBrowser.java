@@ -9,8 +9,7 @@ public class OpenBrowser {
 	public static void main(String[] args) throws InterruptedException {
 		System.setProperty("Webdriver.chrome.driver","A:\\Krupal\\Automation Testing\\Automation Practice\\chromedriver-win64\\chromedriver-win64\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
-		 driver.get("https://www.facebook.com/");
-		//driver.get("https://brainpayrollwebuat.brainpayroll.co.uk/");
+		driver.get("https://www.facebook.com/");
 		driver.manage().window().maximize();
 
 		Thread.sleep(3000);

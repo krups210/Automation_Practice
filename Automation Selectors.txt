@@ -1,0 +1,34 @@
+                             Automation Selectors
+
+
+1. Every object may not have id, className or name, xpath and css preference
+
+2. Alphanumeric id may vary on every refresh - check
+
+3. Confirm the link object with anchor tag -a
+
+4. Classes should not have space- compound class cannot be accepted
+
+5. Multiple values -Selenium identifies the first one - scans from top-left
+
+6. Double quotes inside double quotes are not accepted
+
+7. Xpath/CSS can be defined in n number of ways
+
+8. Right Click copy on blue highlighted html code to generate xpath
+
+9. When xpath starts with html - not reliable - switch browser to get another one
+
+10. There is no direct way to get css on chrome. You will find it in toolbar
+
+11. //tagname[@attribute='value'] - xpath syntax
+
+12. tagName[attribute='value'] - css tagName#id - css
+     tagname.classname - css
+
+13. //tagName[contains(@attribute,'value')] - xpath
+     regular expression
+
+14.  tagName[attribute*='value'] - css regular expression
+
+15.  Check in console : $("") - for css, $x("") for xpath 
