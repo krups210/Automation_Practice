@@ -16,10 +16,10 @@ public class DemoQA {
 		String url = "https://demoqa.com/alerts";
 		WebDriver driver = DriverConnection.getDriver(url);
 		
-//		WebElement alert1 = driver.findElement(By.id("alertButton"));
-//		alert1.click();
-//		Alert alert = driver.switchTo().alert();
-//		alert.accept();
+		WebElement alert1 = driver.findElement(By.id("alertButton"));
+		alert1.click();
+		Alert alert = driver.switchTo().alert();
+		alert.accept();
 //		
 		
 //		WebElement alert2 = driver.findElement(By.id("timerAlertButton"));
@@ -36,11 +36,11 @@ public class DemoQA {
 //		alert.dismiss();
 		
 		
-		WebElement alert4 = driver.findElement(By.id("promtButton"));
-		alert4.click();
-		Alert alert = driver.switchTo().alert();
-		alert.sendKeys("Hello testers");
-		alert.accept();
+//		WebElement alert4 = driver.findElement(By.id("promtButton"));
+//		alert4.click();
+//		Alert alert = driver.switchTo().alert();
+//		alert.sendKeys("Hello testers");
+//		alert.accept();
 		
 	}
 }
